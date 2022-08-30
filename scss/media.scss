@@ -1,0 +1,717 @@
+@media (max-width: 1260px) {
+	.container {
+		max-width: 1140px;
+		padding: none;
+	}
+	.services {
+		&__item {
+			flex-basis: 300px;
+			&:nth-child(3) {
+				flex-basis: 300px;
+			}
+		}
+		&__row {
+			column-gap: 90px;
+		}
+	}
+	.questions__question-item {
+		flex-basis: 520px;
+	}
+	.clients__content {
+		margin-right: 20px;
+	}
+	.contact__text-blocks {
+		flex-basis: 460px;
+	}
+	.medium__subtitle-text {
+		& br {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 1140px) {
+	.container {
+		max-width: 1024px;
+	}
+	.services {
+		&__subtitle-text {
+			br {
+				display: none;
+			}
+		}
+		&__subtitle {
+			& br {
+				display: none;
+			}
+		}
+		&__subtitle-block {
+			flex: 0 1 45%;
+		}
+		&__subtitle-text-block {
+			flex: 0 1 50%;
+		}
+		&__row {
+			width: 95%;
+			justify-content: space-between;
+		}
+		&__item {
+			flex-basis: 365px;
+			&:nth-child(3) {
+				flex-basis: 365px;
+			}
+		}
+	}
+	.procedure {
+		&__subtitle-text {
+			br {
+				display: none;
+			}
+		}
+		&__subtitle {
+			& br {
+				display: none;
+			}
+		}
+		&__subtitle-block {
+			flex: 0 1 50%;
+		}
+		&__subtitle-text-block {
+			flex: 0 1 45%;
+		}
+	}
+	.medium {
+		&__subtitle {
+			& br {
+				display: none;
+			}
+		}
+		&__man-comment-block {
+			right: 375px;
+			bottom: -30px;
+		}
+		&__wooman-comment-block {
+			top: 255px;
+			right: -20px;
+		}
+	}
+	.core {
+		&__values-row {
+			display: flex;
+			justify-content: space-between;
+			margin-left: 16%;
+		}
+		&__values-item {
+			display: flex;
+			flex: 0 1 280px;
+			& br {
+				display: none;
+			}
+			&:nth-child(2) {
+				margin-top: -200px;
+			}
+			&:nth-child(3) {
+				margin-top: -60px;
+			}
+		}
+	}
+	.questions {
+		&__subtitle-text {
+			br {
+				display: none;
+			}
+		}
+		&__subtitle {
+			& br {
+				display: none;
+			}
+		}
+		&__subtitle-block {
+			flex: 0 1 50%;
+		}
+		&__subtitle-text-block {
+			flex: 0 1 45%;
+		}
+		&__question-item {
+			flex-basis: 470px;
+		}
+	}
+	.clients {
+		&__content {
+			margin-right: 0;
+		}
+		&__picture {
+			display: none;
+		}
+		&__row {
+			display: block;
+		}
+		&__logos {
+			text-align: right;
+		}
+		&__text {
+			text-align: right;
+		}
+	}
+	.contact {
+		&__text-blocks {
+			flex-basis: 350px;
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		max-width: 900px;
+	}
+	.about {
+		padding-bottom: 60px;
+	}
+	.work {
+		padding-top: 60px;
+	}
+	.services {
+		padding: 80px 0;
+		&__row {
+			width: 100%;
+			column-gap: 0;
+		}
+		&__subtitle-block {
+			flex-basis: 55%;
+		}
+	}
+	.procedure {
+		padding: 80px 0;
+		&__item {
+			&:nth-child(2) {
+				padding-left: 35%;
+			}
+			&:nth-child(4) {
+				padding-left: 55%;
+			}
+		}
+	}
+	.medium {
+		padding-top: 80px;
+		&__man-comment-block {
+			right: 375px;
+			bottom: -70px;
+		}
+	}
+	.core {
+		padding-top: 80px;
+		&__picture {
+			height: 400px;
+			margin-top: -250px;
+		}
+		&__values-line {
+			flex-basis: 400px;
+		}
+		&__values-item {
+			flex-basis: 240px;
+			&:nth-child(2) {
+				margin-top: -150px;
+			}
+		}
+		&__values-row {
+			margin-left: 10%;
+			margin-right: -40px;
+		}
+	}
+	.questions {
+		padding: 80px 0;
+		&__question-item {
+			flex-basis: 410px;
+		}
+	}
+	.clients {
+		padding: 80px 0;
+	}
+	.contact {
+		padding-top: 80px;
+		&__text-block {
+			padding-right: 20px;
+			&:first-child {
+				margin-bottom: 30px;
+			}
+		}
+		&__text-blocks {
+			flex-basis: 300px;
+		}
+		&__form-block {
+			flex-basis: 500px;
+			height: 700px;
+		}
+		&__form-row {
+			margin-bottom: 90px;
+		}
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		max-width: 780px;
+	}
+	.burger-menu {
+		display: block;
+	}
+	.header {
+		&__row {
+			display: none;
+		}
+	}
+	.about {
+		padding-top: 50px;
+	}
+	.services__item {
+		flex-basis: 300px;
+		&:nth-child(3) {
+			flex-basis: 300px;
+		}
+	}
+	.medium {
+		&__picture {
+			display: none;
+		}
+		&__comment-block {
+			display: none;
+		}
+	}
+	.core {
+		&__picture {
+			height: 350px;
+		}
+		&__values-row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		&__values-item {
+			flex-basis: 220px;
+			&:first-child {
+				margin-left: 30px;
+				margin-right: -20px;
+			}
+			&:nth-child(2) {
+				margin-top: -70px;
+			}
+			&:nth-child(3) {
+				margin-top: -140px;
+			}
+		}
+	}
+	.questions {
+		&__subtitle-block {
+			flex-basis: 45%;
+		}
+		&__question-item {
+			flex-basis: 100%;
+		}
+	}
+	.contact {
+		&__form-row {
+			flex-direction: column;
+		}
+		&__form-block {
+			margin-bottom: 30px;
+		}
+		&__text-blocks {
+			display: flex;
+			justify-content: space-between;
+		}
+		&__text-block {
+			flex: 0 1 45%;
+			&:first-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.footer__links {
+		flex-wrap: wrap;
+		width: 90%;
+		margin: 0 auto;
+		row-gap: 10px;
+	}
+	.procedure__item {
+		&:nth-child(4) {
+			padding-left: 40%;
+		}
+	}
+}
+
+@media (max-width: 780px) {
+	.container {
+		max-width: 660px;
+	}
+	.about {
+		.i01 {
+			max-width: 100%;
+			z-index: 1;
+		}
+		.i02 {
+			bottom: -20px;
+			left: 60px;
+		}
+		.i03 {
+			top: -20px;
+			right: 0;
+		}
+	}
+	.services {
+		&__header {
+			column-gap: 0;
+			justify-content: space-between;
+		}
+		&__subtitle-text-block {
+			flex-basis: 50%;
+		}
+		&__subtitle-block {
+			flex-basis: 42%;
+		}
+		&__item {
+			flex-basis: 250px;
+			&:nth-child(3) {
+				flex-basis: 250px;
+			}
+		}
+	}
+	.core {
+		&__values-row {
+			margin-top: 50px;
+		}
+	}
+	.core__values-item {
+		flex-basis: 170px;
+	}
+}
+
+@media (max-width: 660px) {
+	.container {
+		max-width: 540px;
+	}
+	.about__title {
+		font-size: 65px;
+	}
+	.work__plus-square {
+		width: 90px;
+		height: 90px;
+	}
+	.services {
+		&__header {
+			flex-direction: column;
+		}
+		&__subtitle-block {
+			margin-bottom: 35px;
+		}
+		&__item {
+			flex-basis: 365px;
+			&:nth-child(3) {
+				flex-basis: 365px;
+			}
+		}
+		&__row {
+			max-width: 365px;
+			row-gap: 40px;
+		}
+	}
+	.procedure__header {
+		flex-direction: column;
+	}
+	.procedure__item {
+		&:nth-child(2) {
+			padding-left: 14%;
+		}
+		&:nth-child(4) {
+			padding-left: 17%;
+		}
+	}
+	.core {
+		&__picture {
+			display: none;
+		}
+		&__values-row {
+			margin-top: 20px;
+			flex-direction: column;
+		}
+		&__values-item {
+			max-width: 265px;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:nth-child(2) {
+				margin-left: 20px;
+				margin-top: -190px;
+			}
+			&:nth-child(3) {
+				margin-top: -160px;
+				margin-left: 40px;
+			}
+		}
+		&__values-line {
+			flex-basis: 300px;
+		}
+	}
+	.questions {
+		&__header {
+			flex-direction: column;
+		}
+		&__subtitle-block {
+			margin-bottom: 40px;
+		}
+		&__punct {
+			padding-left: 0;
+		}
+		&__punct {
+			text-align: center;
+		}
+	}
+	.clients {
+		&__subtitle-text {
+			br {
+				display: none;
+			}
+		}
+		&__logos {
+			width: 100%;
+			& img {
+				width: 100%;
+			}
+		}
+		&__text {
+			text-align: left;
+			br {
+				display: none;
+			}
+		}
+	}
+	.contact {
+		&__subtitle-text {
+			br {
+				display: none;
+			}
+		}
+		&__header {
+			margin-bottom: 50px;
+		}
+		&__text-blocks {
+			flex-direction: column;
+			row-gap: 30px;
+		}
+		&__links-row {
+			column-gap: 14px;
+		}
+	}
+	.mobile-menu {
+		padding: 25px 0 0 25px;
+		&__social-networks-row {
+			top: 17px;
+			right: 5px;
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		max-width: none;
+	}
+	.mobile-menu {
+		min-width: 60vw;
+		left: -60vw;
+	}
+	.about {
+		padding: 60px 0;
+		&__btn {
+			width: 180px;
+		}
+		&__buttons {
+			width: 380px;
+		}
+		&__title {
+			font-size: 58px;
+			line-height: 60px;
+		}
+		&__imgs {
+			display: none;
+		}
+		&__text-content {
+			min-height: calc(100vh - 231px);
+			margin-bottom: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		&__tagline-line {
+			margin-bottom: 20px;
+		}
+		&__text {
+			br {
+				display: none;
+			}
+		}
+	}
+	.work {
+		padding: 0;
+		&__row {
+			flex-direction: column;
+		}
+		&__column {
+			&:first-child {
+				margin: 0;
+			}
+		}
+		&__plus-square {
+			width: 160px;
+			height: 160px;
+		}
+	}
+	.services {
+		&__header {
+			margin-bottom: 50px;
+		}
+	}
+	.contact__links-row {
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.contact__phone-mail-row {
+		column-gap: 0;
+		justify-content: space-between;
+	}
+	.procedure__item {
+		&:nth-child(4), &:nth-child(3) {
+			padding-left: 0;
+		}
+	}
+	.about__title {
+		font-size: 55px;
+	}
+	.contact {
+		&__form-block {
+			padding: 40px 20px;
+		}
+		&__form-block-title, &__form-block-text, &__form-block-mail {
+			margin-left: 20px;
+		}
+	}
+}
+
+@media (max-width: 440px) {
+	.about__btn {
+		flex: 0 1 180px;
+	}
+	.about__buttons {
+		margin: 0;
+		width: auto;
+		column-gap: 15px;
+	}
+	.procedure__item {
+		&:nth-child(2) {
+			padding-left: 0;
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.questions__subtitle-notes {
+		flex: 0 1 40%;
+	}
+	.mobile-menu {
+		min-width: 70vw;
+		left: -70vw;
+	}
+	.work__plus-square {
+		width: 120px;
+		height: 120px;
+	}
+	.about {
+		&__tagline {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+		&__circle {
+			width: 22px;
+			height: 22px;
+		}
+		&__title {
+			font-size: 50px;
+		}
+	}
+}
+
+@media (max-width: 380px) {
+	.contact__links-row {
+		margin-bottom: 35px;
+	}
+	.contact__phone-mail-row {
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 20px;
+		.contact__links-row-square {
+			display: none;
+		}
+	}
+	.core__subtitle-text {
+		br {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 340px) {
+	.mobile-menu {
+		min-width: 75vw;
+		left: -75vw;
+	}
+	.about {
+		&__tagline {
+			font-size: 15px;
+			margin-bottom: 20px;
+		}
+		&__circle {
+			width: 20px;
+			height: 20px;
+		}
+		&__title {
+			font-size: 50px;
+		}
+	}
+	.procedure {
+		padding: 40px 0;
+		&__item {
+			&:first-child {
+				padding-left: 0;
+			}
+		}
+	}
+	.contact {
+		padding: 40px 0;
+		&__form-block-text {
+			margin-bottom: 20px;
+		}
+		&__form-block-mail {
+			margin-bottom: 30px;
+		}
+	}
+	.services {
+		padding: 40px 0;
+	}
+	.medium {
+		padding: 45px 0;
+	}
+	.core {
+		padding-top: 40px;
+	}
+	.questions {
+		padding: 40px 0;
+	}
+	.clients {
+		padding: 40px 0;
+	}
+	.burger-menu {
+		top: 15px;
+		right: 15px;
+	}
+}
