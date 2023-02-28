@@ -51,7 +51,7 @@ body {
 	color: #373C42;
 	border-bottom: 1px solid #373C42;
 	transition: 0.1s;
-	@media (min-width: 768px) {
+	@media (hover: hover) {
 		&:hover {
 			border-color: #9181FF;
 		}
@@ -74,7 +74,7 @@ body {
 	transition: 0.1s;
 	z-index: 1000;
 	visibility: hidden;
-	@media (min-width: 768px) {
+	@media (hover: hover) {
 		&:hover {
 			background-color: #7361E7;
 		}
@@ -338,7 +338,7 @@ body {
 		border: 1px solid #A294FF;
 		border-radius: 500px;
 		transition: 0.3s, color 0.1s, transform 0.1s;
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				color: #FFFFFF;
 				border: none;
@@ -409,7 +409,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		transition: 0.1s;
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				background-color: #7361E7;
 			}
@@ -647,7 +647,7 @@ body {
 	}
 	&__subtitle-text-read-more {
 		border-color: #FFFFFF;
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				border-color: #373C42;
 			}
@@ -845,7 +845,7 @@ body {
 		cursor: pointer;
 		transition: 0.2s;
 		position: relative;
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				border-bottom: 1px solid #222222;
 			}
@@ -964,7 +964,7 @@ body {
 	}
 	&__subtitle-text-read-more {
 		border-color: #FFFFFF;
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				border-color: #373C42;
 			}
@@ -1209,7 +1209,7 @@ body {
 			background-color: #000;
 			transition: 0.35s;
 		}
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				&:before {
 					width: 100%;
@@ -1263,7 +1263,7 @@ body {
 			display: inline-block;
 			color: #9181FF;
 			transition: 0.1s;
-			@media (min-width: 768px) {
+			@media (hover: hover) {
 				&:hover {
 					color: #ABB9CA;
 				}
@@ -1284,7 +1284,7 @@ body {
 		font-family: Roboto;
 		font-size: 12px;
 		transition: 0.1s;
-		@media (min-width: 768px) {
+		@media (hover: hover) {
 			&:hover {
 				color: #9181FF;
 			}

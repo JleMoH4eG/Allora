@@ -62,7 +62,7 @@ body {
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .subtitle-text-read-more:hover {
     border-color: #9181FF;
   }
@@ -85,7 +85,7 @@ body {
   z-index: 1000;
   visibility: hidden;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .arrow-btn:hover {
     background-color: #7361E7;
   }
@@ -388,7 +388,7 @@ body {
   transition: 0.3s, color 0.1s, transform 0.1s;
   transition: 0.3s, color 0.1s, transform 0.1s, -webkit-transform 0.1s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .about__btn:hover {
     color: #FFFFFF;
     border: none;
@@ -469,7 +469,7 @@ body {
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .work__plus-square:hover {
     background-color: #7361E7;
   }
@@ -713,7 +713,7 @@ body {
 .medium__subtitle-text-read-more {
   border-color: #FFFFFF;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .medium__subtitle-text-read-more:hover {
     border-color: #373C42;
   }
@@ -917,7 +917,7 @@ body {
   transition: 0.2s;
   position: relative;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .questions__punct:hover {
     border-bottom: 1px solid #222222;
   }
@@ -1048,7 +1048,7 @@ body {
 .clients__subtitle-text-read-more {
   border-color: #FFFFFF;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .clients__subtitle-text-read-more:hover {
     border-color: #373C42;
   }
@@ -1297,7 +1297,7 @@ body {
   -webkit-transition: 0.35s;
   transition: 0.35s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .contact__link:hover:before {
     width: 100%;
   }
@@ -1353,7 +1353,7 @@ body {
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .footer__copyright a:hover {
     color: #ABB9CA;
   }
@@ -1381,7 +1381,7 @@ body {
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .footer__link:hover {
     color: #9181FF;
   }
